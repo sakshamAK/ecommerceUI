@@ -1,0 +1,60 @@
+.signup-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background: #F7F7F7;
+}
+
+.signup-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: white;
+    padding-inline: 4rem;
+    padding-block-end: 4rem;
+    gap: 1rem;
+}
+
+.signup-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signup-input label {
+    font-size: 0.8rem;
+}
+
+.signup-input input {
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    border: 1px solid #9a9a9a;
+}
+
+.signup-forgot-details {
+    display: flex;
+    font-size: 0.8rem;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.forgot-password {
+    color: #3B82F6;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.create-new-account {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

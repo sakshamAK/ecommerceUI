@@ -1,0 +1,73 @@
+.header-cont,
+.header-search,
+.header-profile,
+.header-cart,
+.header-badge div {
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+    gap: 1rem;
+}
+
+.header-cont {
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header-search {
+    border: 1px solid #9A9A9A;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 421px;
+}
+
+.header-search input {
+    outline: none;
+    border: none;
+}
+
+.header-search i.material-symbols-outlined {
+    font-size: 1.2rem;
+}
+
+.header-profile .login-button {
+    background: #9A9A9A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.header-profile {
+    gap: 2rem;
+}
+
+.header-badge div {
+    background-color: red;
+    color: white;
+    border-radius: 999px;
+    justify-content: center;
+    font-size: 0.8rem;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+}
+
+.header-badge {
+    position: relative;
+}
+
+.header-cart,
+.header-cart label {
+    cursor: pointer;
+}
+
+.brand-name {
+    color: #9A9A9A;
+}

@@ -1,0 +1,17 @@
+.wishlist-cont {
+    display: flex;
+    align-items: flex-start;
+    /* background-color: #F7F7F7; */
+    flex-direction: column;
+    padding: 2rem 8rem;
+}
+
+.wishlist-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.wishlist-cont h3 {
+    text-align: center;
+    width: 100%;
+}
